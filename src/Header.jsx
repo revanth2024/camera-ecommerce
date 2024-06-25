@@ -21,21 +21,21 @@ export const Header = ({ cart }) => {
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav className="mx-auto my-2 my-lg-0" navbarScroll>
-              <Nav.Link href="#action1">
+              <Nav.Item href="/">
                 <Link to="/" className="navlink">
                   Home
                 </Link>
-              </Nav.Link>
-              <Nav.Link href="#action2">
+              </Nav.Item>
+              <Nav.Item href="/">
                 <Link to="/about" className="navlink">
                   About
                 </Link>
-              </Nav.Link>
-              <Nav.Link href="#action3">
+              </Nav.Item>
+              <Nav.Item href="/">
                 <Link to="/products" className="navlink">
                   Products
                 </Link>
-              </Nav.Link>
+              </Nav.Item>
             </Nav>
             <Form className="d-flex align-items-center justify-content-center">
               <Form.Control

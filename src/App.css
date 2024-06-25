@@ -51,7 +51,10 @@
 .navlink {
   text-decoration: none !important;
   color: rgb(255, 255, 255);
-  margin: 0px 10px;
+  margin: 0px 20px;
+}
+.nav-item {
+  margin: 5px 0px;
 }
 .navlink:hover {
   padding-bottom: 5px;

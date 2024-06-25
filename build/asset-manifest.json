@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/camera-ecommerce/static/css/main.90ea5889.css",
-    "main.js": "/camera-ecommerce/static/js/main.8e358d4b.js",
+    "main.js": "/camera-ecommerce/static/js/main.e7c6836a.js",
     "static/js/453.1f494c26.chunk.js": "/camera-ecommerce/static/js/453.1f494c26.chunk.js",
     "static/media/about-banner.png": "/camera-ecommerce/static/media/about-banner.1474450cdae79a4a90be.png",
     "static/media/carousel-one.jpg": "/camera-ecommerce/static/media/carousel-one.8401adddbee3afdf68bd.jpg",
@@ -26,11 +26,11 @@
     "static/media/previcon.png": "/camera-ecommerce/static/media/previcon.289deccad282202313fa.png",
     "index.html": "/camera-ecommerce/index.html",
     "main.90ea5889.css.map": "/camera-ecommerce/static/css/main.90ea5889.css.map",
-    "main.8e358d4b.js.map": "/camera-ecommerce/static/js/main.8e358d4b.js.map",
+    "main.e7c6836a.js.map": "/camera-ecommerce/static/js/main.e7c6836a.js.map",
     "453.1f494c26.chunk.js.map": "/camera-ecommerce/static/js/453.1f494c26.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.90ea5889.css",
-    "static/js/main.8e358d4b.js"
+    "static/js/main.e7c6836a.js"
   ]
 }
