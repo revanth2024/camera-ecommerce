@@ -1,0 +1,716 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.container-fluid {
+  width: 95%;
+  margin: auto;
+}
+.logo {
+  width: 150px;
+}
+#searchbox {
+  width: 300px;
+}
+#usericon {
+  padding-left: 20px;
+  cursor: pointer;
+}
+.navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  background-color: #08090e;
+}
+.bannercarousel-one {
+  background-image: url(./images/carousel-one.jpg);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
+  height: 80vh;
+}
+.bannercarousel-two {
+  background-image: url(./images/carousel-two.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  height: 80vh;
+}
+.bannercarousel-three {
+  background-image: url(./images/carousel-three.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+}
+.navlink {
+  text-decoration: none !important;
+  color: rgb(255, 255, 255);
+  margin: 0px 10px;
+}
+.navlink:hover {
+  padding-bottom: 5px;
+  border-bottom: 2px solid rgb(254 115 7);
+  transition: ease-in-out;
+  transition-property: width;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+}
+.navlink-icon:hover {
+  border-bottom: none;
+}
+.App {
+  text-align: center;
+}
+
+.btn:hover {
+  color: black;
+  transition: all 0.4s linear;
+  border: 1px solid rgb(255 255 255 / 33%);
+  background-color: white;
+}
+.bannercontent {
+  margin: 30px 0px 25px 0px;
+  font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  color: #ffffff9c;
+  letter-spacing: 0.5px;
+}
+.carousel-control-prev-icon {
+  background-image: url(images/previcon.png);
+  transform: scale(-1);
+}
+.carousel-control-next-icon {
+  background-image: url(images/previcon.png);
+}
+
+#bannercarousel h1 {
+  color: white;
+  font-weight: 700;
+  font-family: system-ui;
+  text-transform: capitalize;
+}
+.btn {
+  background-color: #ff4d06;
+  border: 0px;
+  padding: 10px 35px;
+  color: white;
+  text-transform: capitalize;
+  box-shadow: rgb(0 0 0 / 22%) 0px 0px 5px 0px, rgb(0 0 0 / 15%) 1px 1px 6px 2px;
+  border: 1px solid transparent;
+}
+
+.bannersecondcontent {
+  margin: 20px 0px;
+}
+.shippingimg svg {
+  font-size: 45px;
+  color: #07237a;
+  margin: 10px 0px;
+}
+.shippingimg h4 {
+  font-family: system-ui;
+  font-weight: 700;
+  text-wrap: nowrap;
+  text-align: center;
+  padding: 6px;
+  font-size: 20px;
+}
+.shippingimg p {
+  font-family: system-ui;
+  font-weight: 400;
+}
+#shippingbg {
+  background-color: #d7d7d75c;
+  border: 1px solid #ededed;
+  box-shadow: 1px 1px 4px 0px #ececec;
+}
+.card-img-top {
+  height: auto;
+  width: 150px;
+  padding: 10px 0px;
+}
+.card-title {
+  font-weight: 600;
+}
+#secondcard {
+  padding: 4px 0px;
+}
+.cardheading {
+  padding: 40px 0px 60px 0px;
+  font-weight: 700;
+}
+
+.offerpart {
+  background-color: rgb(230 230 230);
+  margin-bottom: 50px;
+  border: 1px solid #cfcfcf9e;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background-image: url(./images/offer-bg.jpg);
+  width: 100%;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  cursor: pointer;
+}
+.offerbtn {
+  margin: 15px 0px;
+}
+footer a {
+  text-decoration: none;
+}
+footer span {
+  display: inline-flex;
+}
+footer a:hover {
+  padding-bottom: 5px;
+  border-bottom: 2px solid rgb(247, 38, 38);
+  transition: linear;
+  transition-property: width;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+}
+#creditcard {
+  height: 40px;
+}
+.sign-in-btn:hover {
+  border-bottom: 2px solid transparent;
+}
+.emailinput {
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 10px 15px;
+  width: 300px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-right-style: none;
+}
+#signinbtn {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+#aboutimage {
+  border-radius: 5px;
+  border: 1px solid rgb(173, 173, 173);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.readmorecontent {
+  padding: 10px 20px;
+  width: 65rem;
+}
+
+.testimonials {
+  font-size: 20px;
+  font-weight: 100;
+}
+#testimage {
+  width: 500px;
+  float: left;
+  border-radius: 5px;
+}
+#testimagetwo {
+  float: right;
+  width: 500px;
+  border-radius: 5px;
+}
+.productbutton {
+  text-decoration: none;
+  border: 1px solid #00000000;
+  background-color: rgb(247, 38, 38);
+  padding: 10px 10px;
+  border-radius: 5px;
+  color: white;
+  margin: 20px 0px 0px 0px;
+  width: 100%;
+  box-shadow: rgb(224 224 224 / 27%) 1px 1px 0.25em,
+    rgb(253 253 253 / 5%) 1px 0.25em 1em;
+}
+.productbutton:hover {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+  color: black;
+  transition: all 0.3s linear;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+.card:hover .view-more-btn {
+  opacity: 1;
+  display: block;
+  visibility: visible;
+  position: absolute;
+  top: 60%;
+  right: 50%;
+  transform: translate(50%, 50%);
+  box-shadow: rgba(255, 255, 255, 0.621) 1px 1px 2px;
+  transition: display 1s linear, opacity 1s linear, visibility 1s linear;
+}
+
+.view-more-btn {
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: display 1s linear, opacity 1s linear, visibility 1s linear;
+}
+.view-more-btn button {
+  background-color: #e90000;
+  padding: 8px 30px;
+  border-radius: 5px;
+  border: 1px solid #00000000;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 4px;
+}
+
+.mainflex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.orderbtn {
+  padding: 9px 0px;
+  width: 100%;
+  border: 1px solid #a9a9a999;
+  background-color: rgb(254 8 8);
+  color: white;
+  border-radius: 3px;
+}
+.orderbtn:hover {
+  background-color: rgba(254, 47, 5, 0.904);
+}
+.addingbtn {
+  border-radius: 50%;
+  border: 1px solid black;
+  background: white;
+  height: 30px;
+  width: 30px;
+  margin: 5px;
+}
+.price-details h5 {
+  text-align: center;
+  color: #373737;
+  font-family: system-ui;
+  text-transform: uppercase;
+  border-bottom: 1px dashed #535353;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.price-details p {
+  color: black;
+}
+.price-details {
+  border: 1px solid #bdbdbd;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  padding: 30px 20px;
+  margin: 35px 0px;
+  border-radius: 5px;
+  background-color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 100px;
+  z-index: 1;
+}
+.price-details h4 {
+  font-size: 22px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  padding: 15px 0px;
+  border-top: 1px dashed #cccccc;
+  border-bottom: 1px dashed #cccccc;
+}
+#plusbtn {
+  padding: 3px 20px;
+  border: 1px solid black;
+  border-radius: 2px;
+  background-color: white;
+  color: black;
+}
+.mainflex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.productcard {
+  height: 580px;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  width: 8%;
+}
+.offerpart h1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  color: white;
+}
+.offer-image {
+  filter: drop-shadow(3px 3px 7px grey);
+}
+.offer-subheading {
+  color: #ffffffd6;
+  font-weight: 400;
+  font-family: system-ui;
+  margin-top: 35px;
+}
+.social-icon a {
+  border-bottom: 2px solid transparent !important;
+  color: white !important;
+}
+footer {
+  background-image: linear-gradient(
+    178.7deg,
+    rgb(0 18 39) 5.6%,
+    rgb(1 36 80) 95.3%
+  );
+}
+footer p,
+h6 {
+  color: white;
+}
+
+.about-section {
+  background-image: url(./images/about-banner.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+}
+.about-section h1 {
+  font-weight: 700;
+  font-family: system-ui;
+  text-transform: capitalize;
+  color: white;
+}
+.sub-title {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  color: #ffffff9c;
+  letter-spacing: 0.5px;
+}
+.dropdownfile {
+  position: absolute;
+  top: 80px;
+  right: 27px;
+  width: 160px;
+  background-color: white;
+  border-radius: 7px;
+  border: 1px solid rgb(144 144 144);
+  text-align: start;
+}
+.dropdownfile ul {
+  list-style-type: none;
+  padding-left: 23px;
+  padding-right: 23px;
+}
+.dropdownfile ul li {
+  padding: 12px 0px 3px 0px;
+}
+.dropdownfile::before {
+  content: "";
+  position: absolute;
+  top: -8px;
+  right: 26px;
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border-left: 1px solid rgb(144 144 144);
+  border-top: 1px solid rgb(144 144 144);
+  transform: rotate(45deg);
+}
+
+/*  */
+.sec-icon {
+  position: relative;
+  display: inline-block;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.sec-icon::before {
+  content: "";
+  position: absolute;
+  height: 1px;
+  left: -70px;
+  margin-top: -5.5px;
+  top: 60%;
+  background: #f5f5f5;
+  width: 50px;
+}
+
+.sec-icon::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  right: -70px;
+  margin-top: -5.5px;
+  top: 60%;
+  background: #333;
+  width: 50px;
+}
+
+.advertisers-service-sec span {
+  color: rgb(0, 0, 0);
+}
+
+.advertisers-service-sec .col {
+  padding: 30px 15px;
+  text-align: center;
+}
+
+.advertisers-service-sec .service-card {
+  width: 100%;
+  height: 100%;
+  padding: 2em 1.5em;
+  border-radius: 5px;
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  transition: 0.5s;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  background: #fff;
+}
+
+.advertisers-service-sec .service-card::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    178.7deg,
+    rgb(2, 77, 162) 5.6%,
+    rgb(0, 51, 113) 95.3%
+  );
+  position: absolute;
+  left: 0%;
+  top: -99%;
+  z-index: -2;
+  transition: all 0.4s cubic-bezier(0.77, -0.04, 0, 0.99);
+}
+
+.advertisers-service-sec h3 {
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: black;
+  margin: 1em 0;
+  z-index: 3;
+}
+
+.advertisers-service-sec p {
+  color: black;
+  letter-spacing: 0.03em;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+.advertisers-service-sec .service-card:hover:after {
+  top: 0%;
+}
+
+.advertisers-service-sec .service-card:hover .icon-wrapper {
+  color: #000000;
+}
+.service-card:hover span {
+  color: white;
+}
+.service-card:hover .card-img-top {
+  transform: scale(1.1);
+  transition: all 0.4s linear;
+}
+.advertisers-service-sec .service-card:hover h3 {
+  color: #ffffff;
+}
+
+.advertisers-service-sec .service-card:hover p {
+  color: #f0f0f0;
+}
+.about-content h1 {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: system-ui;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+}
+.about-content p {
+  font-size: 17px;
+  font-weight: 400;
+  font-family: system-ui;
+  letter-spacing: 0.003em;
+  line-height: 28px;
+  margin: 25px 0px;
+}
+.testimonials h1 {
+  font-size: 35px;
+  font-weight: 700;
+  font-family: system-ui;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+}
+.testimonials p {
+  font-size: 17px;
+  font-weight: 400;
+  font-family: system-ui;
+  letter-spacing: 0.003em;
+  line-height: 28px;
+  margin: 25px 0px;
+}
+#section {
+  width: 500px;
+  height: 400px;
+  word-wrap: break-word;
+}
+
+/*  */
+.css-1aquho2-MuiTabs-indicator {
+  background-color: #fd8101 !important;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  color: #fd6203 !important;
+}
+.tabcontent img {
+  width: 40%;
+  height: 400px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  object-fit: cover;
+}
+.tabcontent ul li {
+  list-style-type: disclosure-closed;
+  text-align: start;
+  margin-bottom: 15px;
+}
+.side-content h4 {
+  margin-bottom: 25px;
+  text-align: start;
+  padding-left: 13px;
+}
+.css-heg063-MuiTabs-flexContainer {
+  justify-content: center;
+}
+.css-1gsv261 {
+  width: 55%;
+  margin: auto;
+}
+.product-heading h1 {
+  font-weight: 700;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.navbar-toggler-icon {
+  background-image: url(./images/menuicon.png);
+}
+@media only screen and (max-width: 600px) {
+  .emailinput {
+    width: 145px;
+  }
+  #creditcard {
+    display: none;
+  }
+  .carousel-item {
+    padding: 0px 10px;
+  }
+  #usericon {
+    display: none;
+  }
+  #searchbox {
+    display: none;
+  }
+  #align {
+    position: unset;
+  }
+  .logo {
+    width: 120px;
+  }
+
+  .navbar-toggler {
+    padding: 0;
+    font-size: 23px;
+  }
+  .bannercontent {
+    font-size: unset;
+  }
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    width: 1rem;
+    height: 1rem;
+  }
+  .bannercarousel-one,
+  .bannercarousel-two,
+  .bannercarousel-three {
+    height: 55vh;
+  }
+  .cardheading {
+    padding-bottom: 0px;
+  }
+  .offerpart {
+    height: 260px;
+  }
+  .about-section {
+    height: 65vh;
+  }
+  .about-content p {
+    font-size: 13px;
+    line-height: 22px;
+  }
+  .css-1gsv261 {
+    width: inherit;
+  }
+  .tabcontent img {
+    height: auto;
+    width: auto;
+  }
+  .css-1mb7ed4 {
+    padding: 10px 0px !important;
+  }
+  .testimonials h1 {
+    font-size: inherit;
+  }
+  .testimonials p {
+    font-size: 13px;
+    line-height: 21px;
+  }
+  .advertisers-service-sec .service-card {
+    padding: 1em 1em;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+  #creditcard {
+    display: none;
+  }
+  .bannercarousel-one {
+    height: 50vh;
+  }
+  .about-section {
+    height: 55vh;
+  }
+
+  .tabcontent img {
+    height: auto;
+    width: auto;
+  }
+  .price-details h4 {
+    font-size: 17px;
+  }
+}
