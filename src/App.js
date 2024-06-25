@@ -21,7 +21,7 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter basename="/camera-ecommerce">
+      <BrowserRouter basename="/">
         <Header cart={cart} />
         <Routes>
           <Route path="/" element={<Home />} />
