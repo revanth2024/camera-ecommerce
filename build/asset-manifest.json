@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/camera-ecommerce/static/css/main.fa5ce42b.css",
+    "main.js": "/camera-ecommerce/static/js/main.fb071292.js",
+    "static/js/453.1f494c26.chunk.js": "/camera-ecommerce/static/js/453.1f494c26.chunk.js",
+    "static/media/about-banner.png": "/camera-ecommerce/static/media/about-banner.1474450cdae79a4a90be.png",
+    "static/media/carousel-one.jpg": "/camera-ecommerce/static/media/carousel-one.8401adddbee3afdf68bd.jpg",
+    "static/media/carousel-two.jpg": "/camera-ecommerce/static/media/carousel-two.dd08f0af899fc94a7441.jpg",
+    "static/media/nikonimage.png": "/camera-ecommerce/static/media/nikonimage.fbcf6c7b9b64f112ab18.png",
+    "static/media/offer-bg.jpg": "/camera-ecommerce/static/media/offer-bg.7fbd7cf55d322f8791ec.jpg",
+    "static/media/tab4.jpg": "/camera-ecommerce/static/media/tab4.9b78b53f72c1b6776274.jpg",
+    "static/media/about-image.jpg": "/camera-ecommerce/static/media/about-image.2f1d96fe5b902504f851.jpg",
+    "static/media/carousel-three.jpg": "/camera-ecommerce/static/media/carousel-three.dba791949989953dac3b.jpg",
+    "static/media/tab2.jpg": "/camera-ecommerce/static/media/tab2.478f30ce2d391f0670cc.jpg",
+    "static/media/sixthimage.png": "/camera-ecommerce/static/media/sixthimage.68a33af74bb9b5bab2fb.png",
+    "static/media/tab1.jpg": "/camera-ecommerce/static/media/tab1.28d19f33f35fcbfccfb3.jpg",
+    "static/media/outdoorcamera.png": "/camera-ecommerce/static/media/outdoorcamera.3991e694a652f45a5884.png",
+    "static/media/tab3.jpg": "/camera-ecommerce/static/media/tab3.7533ef36eddda416e043.jpg",
+    "static/media/rollercamera.png": "/camera-ecommerce/static/media/rollercamera.fb7a6298a40ee8125d65.png",
+    "static/media/canonimgone.png": "/camera-ecommerce/static/media/canonimgone.1dfefa7095210cfd9250.png",
+    "static/media/logo.png": "/camera-ecommerce/static/media/logo.e774fe35cb5d635f2926.png",
+    "static/media/menuicon.png": "/camera-ecommerce/static/media/menuicon.f4cbedd98289fa474711.png",
+    "static/media/creditcard.png": "/camera-ecommerce/static/media/creditcard.85c253f4f94d3e053138.png",
+    "static/media/testimonialsone.avif": "/camera-ecommerce/static/media/testimonialsone.85e6bcd6d7e34ed08f5d.avif",
+    "static/media/testimonialtwo.jpg": "/camera-ecommerce/static/media/testimonialtwo.8b0198b7c6bafa7429f1.jpg",
+    "static/media/previcon.png": "/camera-ecommerce/static/media/previcon.289deccad282202313fa.png",
+    "index.html": "/camera-ecommerce/index.html",
+    "main.fa5ce42b.css.map": "/camera-ecommerce/static/css/main.fa5ce42b.css.map",
+    "main.fb071292.js.map": "/camera-ecommerce/static/js/main.fb071292.js.map",
+    "453.1f494c26.chunk.js.map": "/camera-ecommerce/static/js/453.1f494c26.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa5ce42b.css",
+    "static/js/main.fb071292.js"
+  ]
+}
