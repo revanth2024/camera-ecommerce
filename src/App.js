@@ -21,10 +21,10 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter basename="/home">
+      <BrowserRouter basename="/">
         <Header cart={cart} />
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route
             path="/products"
