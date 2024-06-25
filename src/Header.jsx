@@ -9,7 +9,7 @@ export const Header = ({ cart }) => {
   const [opendropdown, setOpendropdown] = useState(false);
   return (
     <>
-      <Navbar expand="lg" className="navbar">
+      <Navbar expand="lg" className="navbar" collapseOnSelect>
         <Container fluid>
           <Navbar.Brand href="#">
             <img
