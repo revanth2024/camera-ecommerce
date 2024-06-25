@@ -11,7 +11,7 @@ export const Header = ({ cart }) => {
     <>
       <Navbar expand="lg" className="navbar" collapseOnSelect>
         <Container fluid>
-          <Navbar.Brand href="#">
+          <Navbar.Brand href="/">
             <img
               src={require("./images/logo.png")}
               className="logo"
@@ -21,17 +21,17 @@ export const Header = ({ cart }) => {
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav className="mx-auto my-2 my-lg-0" navbarScroll>
-              <Nav.Item href="/">
+              <Nav.Item>
                 <Link to="/" className="navlink">
                   Home
                 </Link>
               </Nav.Item>
-              <Nav.Item href="/">
+              <Nav.Item>
                 <Link to="/about" className="navlink">
                   About
                 </Link>
               </Nav.Item>
-              <Nav.Item href="/">
+              <Nav.Item>
                 <Link to="/products" className="navlink">
                   Products
                 </Link>
