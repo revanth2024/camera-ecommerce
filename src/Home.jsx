@@ -3,6 +3,8 @@ import { FaShippingFast } from "react-icons/fa";
 import { PiMoneyWavyFill } from "react-icons/pi";
 import { RiSecurePaymentFill } from "react-icons/ri";
 import { AiFillSafetyCertificate } from "react-icons/ai";
+import { Link } from "react-router-dom";
+
 import "./App.css";
 
 export const Home = () => {
@@ -27,11 +29,11 @@ export const Home = () => {
                   excellent extended warranty options and a superior customer
                   experience.
                 </p>
-                <a href="/#products">
+                <Link to="/products">
                   <button type="button" className="btn">
                     Order Now
                   </button>
-                </a>
+                </Link>
               </div>
               <div
                 className="col-lg-5 col-md-6 text-start"
@@ -51,11 +53,11 @@ export const Home = () => {
                   resolution, advanced features, user-friendly, and exceptional
                   performance.
                 </p>
-                <a href="/#products">
+                <Link to="/products">
                   <button type="button" className="btn">
                     Order Now
                   </button>
-                </a>
+                </Link>
               </div>
               <div className="col-lg-5 col-md-6 text-start"></div>
             </div>
@@ -72,11 +74,11 @@ export const Home = () => {
                   Screen, in-Built Microphone, Bluetooth Shooting Grip, 4K
                   Vlogging Camera and Content Creation) - Black
                 </p>
-                <a href="/#products">
+                <Link to="/products">
                   <button type="button" className="btn">
                     Order Now
                   </button>
-                </a>
+                </Link>
               </div>
               <div className="col-lg-5 col-md-10 col-sm-11 text-start"></div>
             </div>
