@@ -1,6 +1,6 @@
 {
   "homepage": "https://revanth2024.github.io/camera-ecommerce/",
-  "name": "ecommercewebsite",
+  "name": "ecommercewebsite", 
   "version": "0.1.0",
   "private": true,
   "dependencies": {

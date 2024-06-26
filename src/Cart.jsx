@@ -27,7 +27,7 @@ export const Cart = ({ cart, setCart }) => {
         <div className="container-fluid">
           <div className="row justify-content-center">
             <div className="col-lg-8 col-md-8 col-sm-12">
-              <div className="row row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-2">
+              <div className="row row-cols-sm-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-2">
                 {cart.map((data) => (
                   <div className="col" key={data.id}>
                     <div className="service-card">
