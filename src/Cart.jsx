@@ -4,23 +4,32 @@ export const Cart = ({ cart, setCart }) => {
   const [price, setPrice] = useState(0);
 
   useEffect(() => {
-    const savedCart = JSON.parse(localStorage.getItem("cart")) || [];
-    setCart(savedCart);
+    try {
+      const savedCart = JSON.parse(localStorage.getItem("cart")) || [];
+      setCart(savedCart);
 
-    let totalPrice = savedCart.reduce((acc, item) => {
-      return acc + item.price * item.count;
-    }, 0);
-    setPrice(totalPrice);
-  }, []);
+      const totalPrice = savedCart.reduce(
+        (acc, item) => acc + item.price * item.count,
+        0
+      );
+      setPrice(totalPrice);
+    } catch (error) {
+      console.error("Error parsing cart from localStorage", error);
+      setCart([]);
+    }
+  }, [setCart]);
 
   useEffect(() => {
     localStorage.setItem("cart", JSON.stringify(cart));
 
-    let totalPrice = cart.reduce((acc, item) => {
-      return acc + item.price * item.count;
-    }, 0);
+    const totalPrice = cart.reduce(
+      (acc, item) => acc + item.price * item.count,
+      0
+    );
     setPrice(totalPrice);
   }, [cart]);
+
+  //
 
   const changevalue = (data, number) => {
     let updatedCart = cart.map((item) =>

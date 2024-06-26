@@ -11,7 +11,7 @@ export const Header = ({ cart }) => {
     <>
       <Navbar expand="lg" className="navbar" collapseOnSelect>
         <Container fluid>
-          <Navbar.Brand href="/">
+          <Navbar.Brand href="#">
             <img
               src={require("./images/logo.png")}
               className="logo"
