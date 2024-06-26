@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./App.css";
@@ -21,7 +21,7 @@ function App() {
 
   return (
     <div className="App">
-      <Router basename="/camera-ecommerce">
+      <Router>
         <Header cart={cart} />
         <Routes>
           <Route path="/" element={<Home />} />
