@@ -27,7 +27,7 @@ export const Home = () => {
                   excellent extended warranty options and a superior customer
                   experience.
                 </p>
-                <a href="/products">
+                <a href="/#products">
                   <button type="button" className="btn">
                     Order Now
                   </button>
@@ -51,7 +51,7 @@ export const Home = () => {
                   resolution, advanced features, user-friendly, and exceptional
                   performance.
                 </p>
-                <a href="/products">
+                <a href="/#products">
                   <button type="button" className="btn">
                     Order Now
                   </button>
@@ -72,7 +72,7 @@ export const Home = () => {
                   Screen, in-Built Microphone, Bluetooth Shooting Grip, 4K
                   Vlogging Camera and Content Creation) - Black
                 </p>
-                <a href="/products">
+                <a href="/#products">
                   <button type="button" className="btn">
                     Order Now
                   </button>
