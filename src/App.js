@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./App.css";
@@ -21,7 +21,7 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter basename="/">
+      <Router>
         <Header cart={cart} />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -35,8 +35,8 @@ function App() {
             element={<Cart cart={cart} setCart={setCart} />}
           />
         </Routes>
-      </BrowserRouter>
-      <Footer />
+        <Footer />
+      </Router>
     </div>
   );
 }
