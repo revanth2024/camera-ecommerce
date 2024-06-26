@@ -3,31 +3,14 @@ import React, { useState, useEffect } from "react";
 export const Cart = ({ cart, setCart }) => {
   const [price, setPrice] = useState(0);
 
-  useEffect(() => {
-    try {
-      const savedCart = JSON.parse(localStorage.getItem("cart")) || [];
-      setCart(savedCart);
-
-      const totalPrice = savedCart.reduce(
-        (acc, item) => acc + item.price * item.count,
-        0
-      );
-      setPrice(totalPrice);
-    } catch (error) {
-      console.error("Error parsing cart from localStorage", error);
-      setCart([]);
-    }
-  }, [setCart]);
-
-  useEffect(() => {
-    localStorage.setItem("cart", JSON.stringify(cart));
-
-    const totalPrice = cart.reduce(
-      (acc, item) => acc + item.price * item.count,
-      0
+  React.useEffect(() => {
+    let amount = 0;
+    cart.map(
+      (pricingvalue) =>
+        (amount = pricingvalue.price * pricingvalue.count + amount)
     );
-    setPrice(totalPrice);
-  }, [cart]);
+    setPrice(amount);
+  });
 
   //
 
